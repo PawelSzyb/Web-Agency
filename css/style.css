@@ -25,7 +25,7 @@ body {
   width: 100%;
   height: 100vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("img/background.jpeg") no-repeat center;
+    url("../img/background.jpeg") no-repeat center;
   background-size: cover;
   position: relative;
 }
@@ -102,7 +102,7 @@ body {
 
 .content-web {
   width: 90vw;
-  height: 1250px;
+  height: 1850px;
   margin: 70px auto 0 auto;
   display: flex;
   flex-direction: column;

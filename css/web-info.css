@@ -1,0 +1,40 @@
+.content-web_info {
+  height: auto;
+  position: relative;
+  color: #eee;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.content-web_info > h1 {
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.content-web_info > p:first-of-type {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.2em;
+}
+
+.content-web-info_describe {
+  color: #b3b3b3;
+  margin-top: 80px;
+}
+.content-web-info_describe .right-side .img-container h5 {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+.content-web-info_describe .right-side h3 {
+  margin: 50px 0 0 0;
+  font-size: 1.4em;
+}
+.content-web-info_describe .left-side h3 {
+  font-size: 1.4em;
+}
+.content-web-info_describe .right-side .btn-red {
+  margin-top: 30px;
+}
+
+.img-container_team {
+  margin: 20px 0;
+  border-radius: 50%;
+}
