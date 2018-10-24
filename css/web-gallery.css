@@ -3,6 +3,7 @@
   width: 100%;
   height: 90vh;
   position: relative;
+  padding-bottom: 100px;
 }
 .content-web_gallery::before {
   content: "";
@@ -27,4 +28,40 @@
   background-color: #ccc;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
+}
+
+.content-web_gallery h3 {
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 20;
+  margin-top: 60px;
+  font-weight: normal;
+}
+.content-web_gallery .gallery-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.content-web_gallery .gallery-list .gallery-list_item {
+  border: 1px solid #222;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.content-web_gallery .gallery-list .gallery-list_item a {
+  text-transform: uppercase;
+  color: #222;
+  text-decoration: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 50px;
 }
